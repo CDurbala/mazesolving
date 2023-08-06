@@ -1,6 +1,7 @@
 # mazesolving
 
 Using the wall follower method, implemented a synchronous sequential circuit in order to efficiently solve any simply connected maze.
+
 It works by checking whether a wall exists on the cell to the right of the current position. If so, it rotates counterclockwise and checks again. 
 Otherwise, the current position updates with the coordinates of the verified cell, to signal moving there.  
 
